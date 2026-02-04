@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class LogisticRegression:
+class LogisticRegressionC:
     def __init__(self, learning_rate=0.1, n_iters=1000):
         self.bias = None
         self.weights = None
